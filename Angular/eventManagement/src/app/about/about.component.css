@@ -1,0 +1,36 @@
+.aboutt
+{
+    background-image: url("https://images.pexels.com/photos/1694980/pexels-photo-1694980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+}
+
+h2
+{
+    margin: 80px 30px 40px 30px;
+    text-align: center;
+    font-style: Arial Sans-Serif italic;
+}
+p{
+    text-align: center;
+    margin: 40px;
+    padding:10px;
+    font-size:20px;
+}
+
+.imga
+{
+    margin: 20px;
+}
+.imga1
+{
+    margin-left: 60px;
+}
+
+.img-top
+{
+    height: 400px;
+    width: 400px;
+    border-radius:50%;
+    padding: 30px;
+    margin: 0px 50px 0px 0px;
+}

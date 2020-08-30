@@ -1,0 +1,9 @@
+CREATE TABLE user (
+userid int primary key auto_increment,
+name varchar(255),
+password varchar(255),
+dob date,
+jdoc varchar(255));
+
+INSERT INTO user VALUES(1001,"Shubham","123456",'1999-4-9','{"dancing": "20-1-2020", "singing": "30-3-2020"}');
+select * from user;

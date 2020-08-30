@@ -1,0 +1,32 @@
+.cardmargin
+{
+    margin: 80px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+.card
+{
+    margin: 30px;
+}
+
+.card-header
+{
+    background-color: #333;
+    color:white;
+}
+
+.card-footer
+{
+    background-color: #333;
+    color:white;
+}
+
+.card-text
+{
+    text-align: left;
+}
+
+.card-title
+{
+    text-align: left;
+}

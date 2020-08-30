@@ -1,0 +1,16 @@
+use crudapi;
+drop table event;
+
+create table event(
+id int primary key auto_increment,
+ename varchar(255),
+edate date,
+etime time,
+eplace varchar(255),
+etype varchar(255),
+sdesc varchar(255),
+ldesc varchar(500)
+);
+
+insert into event values(101,"Dancing",'2020-10-20','19:00:00','Jalandhar','Cultural',"Inter Collage Dance competetion","Compete with some of the best dancing tallent in jalandhar and get a chance to win 1 lakh cash. ");
+select * from event;
